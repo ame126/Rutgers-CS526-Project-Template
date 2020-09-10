@@ -158,6 +158,9 @@
 								out.println("<td>" + lastname +"</td>");	
 								out.println("<td>" + email +"</td>");
 								out.println("<td>" + netid +"</td>");
+								out.println("<td>" + <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+									Edit
+								</button> "</td>")
 								out.println("</tr>");
 							count++;
 						}
